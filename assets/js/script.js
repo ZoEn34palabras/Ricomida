@@ -1,4 +1,45 @@
-var n1 = document.getElementById("n1")
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+$( "#enviarCorreo" ).on( "click", function() {
+    alert("El correo fue enviado correctamente...");
+} );
+
+$(document).ready(function() {
+    $(".ingre").dblclick(function() {
+    $(this).css("color", "red");
+    });
+});
+
+$(document).ready(function() {
+    $(".prep").dblclick(function() {
+    $(this).css("color", "red");
+    });
+});
+
+
+$( ".card" ).on( "click", function() {
+    $(this).toggle( "slow", function() {
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* var n1 = document.getElementById("n1")
 var n2 = document.getElementById("n2")
 var n3 = document.getElementById("n3")
 var p = document.getElementById("p")
@@ -42,3 +83,4 @@ js2.innerHTML = js2n
 js3.innerHTML = js3n
 
 p3.innerHTML = (parseInt(js1n) + parseInt(js2n) + parseInt(js3n))/3 
+ */
