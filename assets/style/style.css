@@ -5,7 +5,7 @@
 .texto-fuente a{
     color: #fff;
 }
-.logo {
+.logo-nav {
     color: #fff;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
@@ -18,17 +18,21 @@
 .navbar {
     background-color: #373a3c ;
 }
-
 .hero {
     display: flex;
+    vertical-align: middle;
 }
 .hero img{
-    width: 250px;
-    height: 200px;
-    padding: 2em 0 0 0;
-}
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 2em 0 0 5em;   
+}   
 .letras {
-    max-width: 60%;
+    padding-top: 2em;
+    max-width: 70%;
+    display: inline-block;
+    vertical-align: middle;
 }
 .linea {
     position: relative;
@@ -46,16 +50,13 @@
     padding: 0 0 2em 0;    
 }
 .carrusel {
-    display: none;
-    width: 250px;
-    height: 200px;
-    padding: 0 0 0 0; 
+    width: 800px;
+    height: 200px; 
+    padding: 2em 0 0 5em;
 }
 .segunda-linea {
-    position: relative;
     width: 90%;
-    margin-left: 9em;
-    margin-top: 3em ;
+    margin-left: 2em;
     margin-bottom: 2em;
     border-width: 2px;
     background-color: black;
@@ -64,18 +65,16 @@
 .blank {
     height: 20px;
 }
-
 .instrucciones {
     margin-left: 7em;
     margin-right: 9em;
 }
-
 h2 {
     text-align: center;  
     padding: 0 0 1em 0;
     font-family:"Cabin", sans-serif;  
     font-weight: bold;
-    font-size: 00;
+    font-size: 400;
 }
 .recetas {
     margin-left: 7em;
@@ -125,7 +124,4 @@ footer {
     font-weight: 400;
     font-size:x-large ;
     font-style: normal;
-}
-@media (min-width: 1000px)
-{
 }
